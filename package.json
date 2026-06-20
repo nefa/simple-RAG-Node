@@ -1,0 +1,17 @@
+{
+  "name": "simple-rag-node",
+  "version": "1.0.0",
+  "description": "A minimal RAG pipeline in Node.js — PDF ingestion, vector search, and local LLM Q&A",
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest.js",
+    "ask": "node query.js ask",
+    "extract": "node query.js extract"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.0.0",
+    "@qdrant/js-client-rest": "^1.12.0",
+    "ollama": "^0.5.0",
+    "pdf-parse": "^1.1.1"
+  }
+}

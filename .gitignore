@@ -1,0 +1,23 @@
+# Source documents
+sample-data/source/
+
+# Data
+data/
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env-mock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
